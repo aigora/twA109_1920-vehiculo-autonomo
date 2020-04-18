@@ -1,0 +1,142 @@
+#include <stdio.h>
+#include <Servo.h>
+
+#define LC 1
+#define LL 0
+
+
+
+
+Servo servo;
+
+
+void setup(){
+	
+	servo.attach(9);
+	
+}
+void loop(){
+    
+    int estado=0;
+    int pos=0;
+    
+    while(1){
+        switch (estado) {
+            case 0: {
+                sensorCI=LC; sensorCD=LC;  
+            while((sensorI==LL)&&(sensorD==LL){
+            }  
+            
+            if((sensorI==LL)&&(sensorD==LC)){
+                
+                estado=1; 
+                break;
+                
+            } else if((sensorI==LL)&&(sensorD==LL)) {
+                
+                estado=2; 
+                break;
+                
+            } else if ((sensorI==LC)&&(sensorD==LL)) {
+                
+                estado=3; 
+                break;
+                
+            } else{   
+                
+                estado=0;   
+                break;
+                
+            }} 
+            
+            case 1:  {
+                sensorCI=LL; sensorCD=LC;  
+            
+            while(((sensorI==LL)&&(sensorD=LC)))||((sensorI==LL)&&(servoD==LL ))){
+                
+            } if((sensorI==LL)&&(sensorD==LL)) {
+                
+                estado=2;  
+                break;
+                
+            }else if ((sensorI==LC)&&(sensorD==LL))
+            
+                 estado=3; 
+                 break;
+                
+            } else {
+                
+                estado=1;   
+                
+                break;}}
+
+            case 2: {
+                
+                sensorCI=LC; sensorCD=LL; 
+                
+                while(((sensorI==LL)&&(sensorD==LL))||((sensorI==LL)&&(sensorD==LL ))){
+                    
+                } if((sensorI==LL)&&(sensorD==LL)){
+                    
+                    estado=1; 
+                    break;
+                    
+                }  else if ((sensorI==LC)&&(sensorD==LL)) 
+                
+                    estado=3; 
+                    break;
+                
+                } else {
+                    
+                    estado=2; 
+                    break;
+                    
+                }}
+
+
+            case 3:{
+                
+                sensorCI=LL; sensorCD=LC; 
+                
+                while((sensorI==LC)&&(sensorD==LL))||((sensorI==LL)&&(sensorD==LL)){
+                    
+                }if((sensorI==LL)&&(sensorD==LC)) {
+                    
+                    estado=1;
+                    break;
+                    
+                }else if ((sensorI==LL)&&(sensorD==LL)) 
+                
+                    estado=2;   
+                    break;
+                
+                }else {
+                    
+                    estado=3; 
+                    break;
+                    
+                }}} if((sensorD==LL)) 
+                
+                {LV=1;
+                    
+                }else if ((sensorI==LL)&&(sensorD==LL))  {
+                    
+                LV=0;
+                    
+                }else{LV=0;
+                    
+                }if(sensorI==LL){ 
+                
+                LR_I=1;
+                    
+                } LR_D=1;
+                    
+                } else{
+                
+                LR_D=0;
+                    
+                }} 
+                
+                return;
+
+
