@@ -1,11 +1,11 @@
 # Título del trabajo
 
 COCHE AUTONOMO. 
-Nuestro trabajo consiste en desarrollar un coche autónomo el cual, consiga seguir una línea sin cabecear y ser capaz de girar
+Nuestro trabajo consiste en desarrollar un vehículo capaz de seguir un línea, sin salirse de ella, y cabeceando lo menos posible. 
 
 ## Integrantes del equipo
 
-Jorge López Montero, David Rodriguez Blanco y Cristina Navarro Bados
+Jorge López Montero, David Rodríguez Blanco y Cristina Navarro Bados.
 
 ## Objetivos del trabajo
 
