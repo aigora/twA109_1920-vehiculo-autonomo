@@ -45,8 +45,10 @@ Tiene unas dimensiones de 22 X 11.5 X 27 mm, trabaja con tensiones de entre 4 V 
    ![Servo] (/twA109_1920-vehiculo-autonomo/servo.jpg)
    
  #### CNY70
- 
- 
+ El CNY70 es el tipo de senso óptico reflectivo que utilizaremos en nuestro proyecto. El CNY70 es un sensor que incluye un led infrarrojo y un fototransistor. Lo emplearemos para Arduino como detector de líneas. Su función principal es la de medir la reflexión en superficies. El circuito integrado tiene cuatro pines, (1) y (2) son para el led emisor. También los pines (3) y (4) son para el fototransistor. Para poder hacer una detección se requiere entonces de una superficie que refleje la luz infrarroja.
+Dado que en nuestro proyecto lo utilizaremos como detector de líneas, si la superficie reflectora es negra, no se reflejará tanta luz con longitud de onda en el infrarrojo y por lo tanto tendremos un ‘0’ a la salida del emisor del fototransistor. Si por el contrario tenemos que el sensor está «viendo» una superficie blanca, tendremos un ‘1’. FUNCIONAMIENTO DEL CNY70 El CNY70 funciona como un detector de distancia. Para esto, requiere de una superficie que pueda reflejar la luz infrarroja. Entonces el detector recibe esta luz en la base del fototransistor. Si la corriente en la base es suficiente, permite el paso de corriente entre el colector y el emisor. El CNY70 funciona como un switch que se abre o cierra si existe una superficie que refleje la señal que emite el diodo IR. Distancia máxima del CNY70 En el CNY70 la distancia máxima la determina la corriente que le llega a la base del transistor. La distancia va desde 0mm hasta 10mm. La corriente de la base depende de la corriente que se le suministre al diodo emisor. Para calcular la resistencia del led, se usa la Ley de ohm. Entonces la fórmula que aplica es la siguiente.
+Corriente CNY70, I = V/R
+Es decir que la corriente depende de la razón del voltaje y la resistencia. El voltaje de 1.25V es el voltaje de caída del diodo emisor. Este valor depende de cada CNY70 y puede ir desde 1.25V hasta 1.6V. ARDUINO Para usar el CNY70 con Arduino podemos hacerlo funcionar de dos formas: digitalmente (0,1) para distancias de 0 a 10mm. Y la segunda forma es con una entrada analógica y midiendo la señal que proporciona el sensor dependiendo de la situación que se desee.
  
  ![CNY70] (/twA109_1920-vehiculo-autonomo/CNY70.jpg)
 
