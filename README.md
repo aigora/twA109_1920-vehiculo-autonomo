@@ -1,19 +1,24 @@
 # Título del trabajo
 
-COCHE AUTONOMO. 
-Nuestro trabajo consiste en desarrollar un vehículo capaz de seguir un línea, sin salirse de ella, y cabeceando lo menos posible. 
+COCHE AUTÓNOMO. 
 
 ## Integrantes del equipo
 
-Jorge López Montero, David Rodríguez Blanco y Cristina Navarro Bados.
+Jorge López Montero, David Rodríguez Blanco, Cristina Navarro Bados.
 
 ## Objetivos del trabajo
 
-•	Programar el vehículo para que siga una línea sin salirse de ella cuando reciba la señal de hacerlo, sin cabecear.
+•	Nuestro trabajo consiste en desarrollar un vehículo capaz de seguir una línea de forma autónoma cabeceando lo mínimo posible.
 
 ## Hardware
 
-Arduino, sensores, motor, servo.
+Dentro del hardware podemos diferenciar dos secciones principales, el chasis y los componentes electrónicos. 
+
+### Chasis
+  El chasis del vehículo ha sido diseñado utilizando el programa Autocad. La principal ventaja que presenta este programa frente a otros es la capacidad de dibujar vectorialmente, lo que nos permite realizar diseños muy exactos, desarrollando piezas que encajaran milimétricamente eliminando cualquier futura holgura o mal ajuste entre las piezas y componentes.
+  Para facilitar la fabricación del prototipo se han ido diseñando las distintas partes individualmente. 
+ 
+
 
 ## Software
 
