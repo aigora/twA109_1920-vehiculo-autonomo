@@ -19,7 +19,7 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   Para facilitar la fabricación del prototipo se han ido diseñando las distintas partes individualmente como se puede observar en la siguiente imagen.
   
   ![AUTOCAD]
-  (https://raw.david-rodriguez-blanco.com/twA109_1920-vehiculo-autonomo/autocad.PNG)
+  (https://david-rodriguez-blanco.github.com/twA109_1920-vehiculo-autonomo/autocad.PNG)
   
   Tras el diseño de las piezas en Autocad se pasó a su fabricación. Para llevarlas a la realidad se ha utilizado una impresora 3d, que a partir de un filamento de PLA, ha transformado un archivo .gcode en una pieza física. 
   
