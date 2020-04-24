@@ -51,6 +51,11 @@ Corriente CNY70, I = V/R
 Es decir que la corriente depende de la razón del voltaje y la resistencia. El voltaje de 1.25V es el voltaje de caída del diodo emisor. Este valor depende de cada CNY70 y puede ir desde 1.25V hasta 1.6V. ARDUINO Para usar el CNY70 con Arduino podemos hacerlo funcionar de dos formas: digitalmente (0,1) para distancias de 0 a 10mm. Y la segunda forma es con una entrada analógica y midiendo la señal que proporciona el sensor dependiendo de la situación que se desee.
  
  ![CNY70] (/twA109_1920-vehiculo-autonomo/CNY70.jpg)
+ 
+ #### LCD
+ 
+ Para este proyecto se ha empleado un actuador LCD ( Liquid Cristal Display ) como elemento output para mostrar información sin necesidad de utilizar un monitor serial, es decir, sin necesidad de tenerlo conectado a un ordenador. El funcionamiento de este LCD se basa en las propiedades de la luz polarizada . A partir de 7 una serie de filtros y la iluminación de fondo podemos ver la información mostrada en la pantalla.  La luz de fondo se produce en la parte inferior del monitor. El panel superior está formado por varias capas. En los extremos encontramos dos filtros polarizados orientados en un ángulo de 90º entre si. El filtro superior transforma la luz no polarizada en polarizada de un solo plano. Esta luz no puede superar el filtro inferior porque, como ya se ha mencionado anteriormente, se encuentra girado 90º. Para conseguir que vuelva a rotar se coloca un cristal líquido intermedio. Este cristal gracias a sus moléculas internas consigue girar el ángulo de la luz. A su vez, el cristal posee unas capas de alineación en su parte superior e inferior, que son las encargadas de girar las moléculas del cristal con un ángulo concreto.  
+Todo este conjunto está recubierto por una capa de electrodos transparentes, cuya función es ajustar el plano de polarización y con ello la intensidad de la luz. En función de la tensión que reciben girará con más o menos ángulo las moléculas del cristal, variando la intensidad. Una vez este conjunto está formado se le coloca un filtro para poder ajustar la tonalidad de luz deseada.
 
 ## Software
 
