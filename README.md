@@ -31,7 +31,7 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   
   Tras esto, el siguiente paso consiste en ensamblar todos los componentes electrónicos. Para ello, y con le fin de simplificar en la medida de lo posible las conexiones para solventar con facilidad futuros problemas así como mejorar el resultado final, todas las resistencias necesarias, conexiones entre componentes, etc, se han realizado en la placa mostrada.
   
-  ![Placa soldaduras] ()
+  ![Placa soldaduras] (https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/5.jpeg)
   
 ### Componentes electrónicos 
   El vehículo esta compuesto por diversos componentes electrónicos que se detallarán a continuación. Cabe remarcar que algunos componentes pueden verse variados debido al problema actual de abastecimiento.
