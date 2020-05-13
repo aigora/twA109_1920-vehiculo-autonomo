@@ -182,7 +182,7 @@ Programación de prueba del lcd.
 Con este programa, al igual que con el anterior y el que viene a continuación, verificamos el correcto funcionamiento del componente, en este caso el lcd.
 Como se puede observar, primeramente declaramos la librería que vamos a utilizar, lo que nos permite simplificar en gran medida nuestro programa. A continuación declaramos los pines a los que está conectado el lcd, el pin encargado de regular el voltaje y definimos una variable de tipo entero que será utilizada en futuros bucles.
 Este programa ha sido desarrollado en su totalidad en el void setup(), ya que queremos que solo sea mostrado al iniciar el programa. Nos mostrará una serie de indicaciones que debemos seguir para la correcta configuración del prototipo.
-En un futuro, cuando se anexiones todos los subprogramas que están siendo explicados, esta sección será definida en una función indeoendiente, con el fin de simplificar el programa final y facilitar posibles arreglos o modificaciones. 
+En un futuro, cuando se anexionen todos los subprogramas que están siendo explicados, esta sección será definida en una función independiente, con el fin de simplificar el programa final y facilitar posibles arreglos o modificaciones. 
 A su vez se pretende incluir una función capaz de medir, en tiempo real, el voltaje de la batería, que será mostrado a través del lcd permitiéndonos conocer el momento preciso de recarga de la bateria sin necesidad de conectar cualquier otro dispositivo externo. 
 
 Finalemente, el último programa que se ha podido desarrollar (debido a la falta de componentes) es el que implica el servo. El objetivo de este programa era conocer los valores de ángulo máximo y mínimo que el prototipo admite, así como el ángulo correcto para que el coche se desplace lo más recto posible. Obviamente estos valores nos son definitivos, pero sí que serán bastente útiles para poder continuar con el correcto desarrollo del resto de programa. 
@@ -216,5 +216,9 @@ Este programa nos permite ir variando de forma manual el ángulo de giro hasta c
 Al principio del mismo se ha incluido la libreria, así como se han definido los valores de centro, ángulo máximo y ángulo mínimo. A continuación se crea el objeto, se define la variable a utilizar y se comienza con el void setup. Al igual que se ha visto en programas anteriores, solo se emplea el void setup ya que únicamente nesitamos realizar pequeñas pruebas de forma manual y sencilla. Este programa comienza centrando las ruedas, para más tarde girarlas a ambos lados comprobando los ángulos máximos. 
 
 Cabe destacar que en un futuro todos estos subprogramas serán definidos en funciones independientes que serán llamadas por la función principal cuando así sea determiando. 
+
+Debido a la posibilidad de que los sensores CNY70 no lleguen a tiempo, se ha desarrollado un programa con el fin de mostrar que el resto de componentes funcionan de forma correcta. En cualquier caso, como se puede observar en la imágen de la placa, todas las resistencias, conectores y demás elementos necesarios para la utilización de estos sensores han sido instalados con el fin de instalarlos con la mayor rapidez posible. 
+
+    
 
 
