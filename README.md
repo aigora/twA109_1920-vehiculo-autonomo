@@ -36,10 +36,10 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   Esta se conecta con el arduino mediante unos pines que están soldados en su parte inferior y, a su vez, a la placa se conectan los componentes restantes (L298N, LCD, servo) gracias a los pines superiores que se observan en la imagen. 
   Con todos los componentes montados e interconectados el resultado final obtenido es: 
   
-  ![Coche1]()
-  ![Coche2]()
-  ![Coche3]()
-  ![Coche4]()
+  ![Coche1](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/1.jpeg)
+  ![Coche2](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/2.jpeg)
+  ![Coche3](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/3.jpeg)
+  ![Coche4](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/4.jpeg)
   
 ### Componentes electrónicos 
   El vehículo esta compuesto por diversos componentes electrónicos que se detallarán a continuación. Cabe remarcar que algunos componentes pueden verse variados debido al problema actual de abastecimiento.
