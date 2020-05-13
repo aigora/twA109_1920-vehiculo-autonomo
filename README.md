@@ -18,7 +18,7 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   El chasis del vehículo ha sido diseñado utilizando el programa Autocad. La principal ventaja que presenta frente a otros programas es la capacidad de dibujar vectorialmente, lo que nos permite realizar diseños muy exactos, desarrollando piezas que encajaran milimétricamente eliminando cualquier futura holgura o mal ajuste entre las piezas y componentes.
   Para facilitar la fabricación del prototipo se han ido diseñando las distintas partes individualmente como se puede observar en la siguiente imagen.
   
-  ![AUTOCAD](/twA109_1920-vehiculo-autonomo/autocad.PNG)
+  ![AUTOCAD](github.com/aigora/twA109_1920-vehiculo-autonomo/autocad.PNG)
   
   Una vez todas las piezas fueron diseñadas e impresas, el siguiente paso fue la base que las une. Utilizando las medidas de las piezas anteriores y las limitaciones (dimensionalmente hablando) de la impresora, finalmente se obtuvo la pieza que podemos ver a continuación.
   
