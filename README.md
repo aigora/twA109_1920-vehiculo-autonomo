@@ -58,7 +58,7 @@ Este componente es un driver dual basado en el chip L298N. Permite controlar dos
   - Con el jumper activado. Se podrán conectar voltajes de entre 6v y 12v al pin +12v. Como el jumper se encuentra activo, en el pin +5v obtendremos 5v de salida, que utilizaremos para alimentar el Arduino. 
   - Con el jumper desactivado. Se podrán conectar voltajes al pin +12v de entre 12v y 35v. Pero, a diferencia del método anterior, tendremos que alimentar la parte lógica del módulo conectándole 5v externos adicionales a través del pin +5v.
   
-  ![L298N] (/twA109_1920-vehiculo-autonomo/l298n.png)
+  ![L298N](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/l298n.png)
  
 #### Micro servo SG90
 Micro servo SG90 es un servo miniatura de reducidas dimensiones y bajo consumo. El servo SG90 tiene un conector universal tipo “S” que encaja perfectamente en la mayoría de los receptores de radio control incluyendo los Futaba, JR, GWS, Cirrus, Hitec y otros. Los cables en el conector están distribuidos de la siguiente forma: Rojo = Alimentación (+), Marrón= Alimentación (-) o tierra, Naranja= Señal PWM.
