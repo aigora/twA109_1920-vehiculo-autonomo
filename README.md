@@ -65,7 +65,7 @@ Micro servo SG90 es un servo miniatura de reducidas dimensiones y bajo consumo. 
 
 Tiene unas dimensiones de 22 X 11.5 X 27 mm, trabaja con tensiones de entre 4 V a 7.2V con una velocidad de giro de 60 grados de 0.12 s y además es compatible con tarjetas como Arduino, la cual utilizaremos para nuestro proyecto. Los servos que incorporemos a este proyecto se dedicaran a mantener el coche en la línea trazada, así cuando los sensores detecten que el automóvil se sale de la línea ya sea por que haya un giro o cualquiera otra cosa, el servo posicionará correctamente al automóvil.
  
-   ![Servo] (/twA109_1920-vehiculo-autonomo/servo.jpg)
+   ![Servo](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/servo.jpg)
    
  #### CNY70
  El CNY70 es el tipo de senso óptico reflectivo que utilizaremos en nuestro proyecto. El CNY70 es un sensor que incluye un led infrarrojo y un fototransistor. Lo emplearemos para Arduino como detector de líneas. Su función principal es la de medir la reflexión en superficies. El circuito integrado tiene cuatro pines, (1) y (2) son para el led emisor. También los pines (3) y (4) son para el fototransistor. Para poder hacer una detección se requiere entonces de una superficie que refleje la luz infrarroja.
