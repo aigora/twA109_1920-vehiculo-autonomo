@@ -20,7 +20,7 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   
   ![AUTOCAD](/twA109_1920-vehiculo-autonomo/autocad.PNG)
   
-  Tras el diseño de las piezas en Autocad se pasó a su fabricación. Para trasladarlas a la realidad se ha utilizado una impresora 3d, que a partir de un filamento de PLA, ha transformado un archivo .gcode en una pieza física. 
+  Una vez todas las piezas fueron diseñadas e impresas, el siguiente paso fue la base que las une. Utilizando las medidas de las piezas anteriores y las limitaciones (dimensionalmente hablando) de la impresora, finalmente se obtuvo una pieza como la que se puede observar en la imágen  
   
 ### Componentes electrónicos 
   El vehículo esta compuesto por diversos componentes electrónicos que se detallarán a continuación. Cabe remarcar que algunos componentes pueden verse variados debido al problema actual de abastecimiento.
