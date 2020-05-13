@@ -20,7 +20,10 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   
   ![AUTOCAD](/twA109_1920-vehiculo-autonomo/autocad.PNG)
   
-  Una vez todas las piezas fueron diseñadas e impresas, el siguiente paso fue la base que las une. Utilizando las medidas de las piezas anteriores y las limitaciones (dimensionalmente hablando) de la impresora, finalmente se obtuvo una pieza como la que se puede observar en la imágen  
+  Una vez todas las piezas fueron diseñadas e impresas, el siguiente paso fue la base que las une. Utilizando las medidas de las piezas anteriores y las limitaciones (dimensionalmente hablando) de la impresora, finalmente se obtuvo la pieza que podemos ver a continuación.
+  
+  ![Base](/twA109_1920-vehiculo-autonomo/blob/master/7.jpeg
+  
   
 ### Componentes electrónicos 
   El vehículo esta compuesto por diversos componentes electrónicos que se detallarán a continuación. Cabe remarcar que algunos componentes pueden verse variados debido al problema actual de abastecimiento.
