@@ -217,8 +217,10 @@ Al principio del mismo se ha incluido la libreria, así como se han definido los
 
 Cabe destacar que en un futuro todos estos subprogramas serán definidos en funciones independientes que serán llamadas por la función principal cuando así sea determiando. 
 
-Debido a la posibilidad de que los sensores CNY70 no lleguen a tiempo, se ha desarrollado un programa con el fin de mostrar que el resto de componentes funcionan de forma correcta. En cualquier caso, como se puede observar en la imágen de la placa, todas las resistencias, conectores y demás elementos necesarios para la utilización de estos sensores han sido instalados con el fin de instalarlos con la mayor rapidez posible. 
+Debido a la posibilidad de que los sensores CNY70 no lleguen a tiempo, se ha desarrollado un programa con el fin de mostrar que el resto de componentes funcionan de forma correcta. En cualquier caso, como se puede observar en la imágen de la placa, todas las resistencias, conectores y demás elementos necesarios para la utilización de estos sensores han sido preinstalados con el fin de completar el prototipo en el menor tiempo posible. 
 
    https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/Demostraci%C3%B3n.ino)
+   
+ EL correcto funcionamiento de este código será mostrado en el futuro video a entregar. 
 
 
