@@ -20,10 +20,14 @@ Dentro del hardware podemos diferenciar dos secciones principales, el chasis y l
   
   ![AUTOCAD](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/autocad.PNG)
   
-  Una vez todas las piezas fueron diseñadas e impresas, el siguiente paso fue la base que las une. Utilizando las medidas de las piezas anteriores y las limitaciones (dimensionalmente hablando) de la impresora, finalmente se obtuvo la pieza que podemos ver a continuación.
+  Una vez todas las piezas fueron diseñadas e impresas, el siguiente paso fue la base que las une. Para su diseño se tuvo en cuenta las limitaciones (dimensionalmente hablando) de la impresora, y se utilizaron las medidas de las piezas anteriores. 
   
   ![Base](https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/7.jpeg)
   
+  En esta base se soportan las distintas piezas mediante tornillos. En la parte inferior de la base se han incluido orificios de la medida exacta de las tuercas utilizadas con el fin de facilitar su montaje.
+  Con todas las piezas del chasis disponibles, se procedió a su montaje, obteniendo el resultado mostrado a continuación. 
+  
+  ![Chasis] ()
   
 ### Componentes electrónicos 
   El vehículo esta compuesto por diversos componentes electrónicos que se detallarán a continuación. Cabe remarcar que algunos componentes pueden verse variados debido al problema actual de abastecimiento.
