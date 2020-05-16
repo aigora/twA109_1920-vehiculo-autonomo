@@ -1,0 +1,110 @@
+float S.D = A1; //Declaracion de sensores
+float SI = A2;
+float SC = A3;
+float SCD = A4;
+float SCI = A5;
+int sat; //saturacion de los CNY
+int velocidad= 250; //Velocidad del motor
+int ENA = 11; //Declaracion de los motores
+int IN1 = 13;
+int IN2 = 12;
+int LC = 1;
+int LL = 0;
+int satS.D;//almacena el valor de la saturacion en el sensor 1
+int satSI;//almacena el valor de la saturacion en el sensor 2
+int satSC;//almacena el valor de la saturacion en el sensor 3
+int satSCD;//almacena el valor de la saturacion en el sensor 4
+int satSCI;//almacena el valor de la saturacion en el sensor 5
+
+void setup(){
+
+  Serial.begin(9600); 
+  pinMode(S.D, INPUT);//Pines de los sensores entradas
+  pinMode(SI, INPUT);
+  pinMode(SC, INPUT);
+  pinMode(SCD, INPUT);
+  pinMode(SCI, INPUT); 
+  pinMode (ENA, OUTPUT);//Declaramos pines como salidas
+  pinMode (IN1, OUTPUT);
+  pinMode (IN2, OUTPUT);
+
+}
+
+void loop(){
+
+  Serial.print("\n leyendo estado sensor: \n"); //Lectura de la saturacion de los sensores
+  satS.D = S.D.lectura(sat);
+  satSI = SI.lectura(sat);
+  satSC = SC.lectura(sat);
+  satSCD = SCD.lectura(sat);
+  satSCI = SCI.lectura(sat);
+  delay(3000);
+  
+  analogWrite(ENA, velocidad);
+  digitalWrite(IN1,LOW);
+  digitalWrite(IN2, HIGH);
+
+  //sensor derecho SD, izquierdo SI, central SC,central derecho SCD, central izq SCI
+  int estado=0;
+  int pos=0;
+  while(1){
+    switch (estado)
+   {case 0; 
+    {CI=LC; CD=LC;   
+  while((SCI==0)&&(SC==0)&&(SCD=0)){}//Parar
+    if((SCI==0)&&(SC==1)&&(SCD==0)) //recto
+    {estado=1; 
+       break;}
+  else if((SCI==0)&&(SC==0)&&(S.D==1))//Giro derecha
+    {estado=2;
+      break;}
+  else if ((SI==1)&&(SC=0)&&(SCD==0))//giro izq
+  {estado=3;
+    break;}
+  else{
+    estado=0; //Recto
+      break;
+      }}
+
+  case 1:
+  {SI=1; S.D=1;  
+   while(((SCI==0)&&(SC=1)&&(SCD==0))||((SCI ==0)&&(SC=0   )&&(SCD==0))){}  //recto
+     if((SCI ==0)&&(SC=0)&&(SCD==1))   //Girar derecha
+  {estado=2;   
+    break;}  
+  else if ((SCI ==1)&&(SC=0)&&(SCD==0))   //Girar izq
+  estado=3;   
+    break;}
+  else   
+  {estado=1;  //Recto
+    break;}}
+
+  case 2:   
+  {SI=1; S.D=0;  
+  while(((SCI ==0)&&(SC=0)&&(SCD==0))||(( SCI ==0)&&(SC=0   )&&(SCD==1))){} 
+    if((SCI ==0)&&(SC=1)&&(SCD==0))   //Recto
+    {estado=1;  
+      break;}  
+  else if ((SCI ==1)&&(SC=0)&&(SCD==0))   //Girar izq
+  estado=3;   
+    break;}  
+  else  
+  {estado=2;   //Girar derecha
+    break;}} 
+
+  case 3:  
+  {SI=0; S.D=1; 
+  while(((SCI==1)&&(SC=0)&&(SCD==0))||((SCI ==0)&&(SC=0)&&(SCD==0))){}
+    if((SCI ==0)&&(SC=1)&&(SCD==0))    //Recto
+  {estado=1;   
+    break;}  
+  else 
+  if ((SCI==0)&&(SC=0)&&(SCD==1))   //Girar derecha
+  estado=2;   
+    break;} 
+  else   
+  {estado=3;   //Girar izq
+    break;
+    }}}  
+  return;
+  }
