@@ -226,5 +226,7 @@ Debido a la posibilidad de que los sensores CNY70 no lleguen a tiempo, se ha des
  En un principio, y sin conocer si los sensores llegarían a tiempo, se desarrollo un programa independiente encargado de leer la información procedente de los sensores. Este es el denominado "Código 2".
  Pero finalemente, con los sensores disponibles, se procedió a unificar el código para cargarlo más tarde en el arduino. Tras realizar diversas pruebas con todos los códigos independientes de los que disponiamos, se tomó la decisión de llevar a cabo en modificación en la sección encargada de reconocer la línea. De esta forma, el código definitivo es: 
  
+  https://github.com/aigora/twA109_1920-vehiculo-autonomo/blob/master/V.2.ino)
+ 
 
 
